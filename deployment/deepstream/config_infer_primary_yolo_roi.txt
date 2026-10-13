@@ -1,0 +1,30 @@
+# NVIDIA DeepStream nvinfer config for the YOLO hippocampus/ventricle ROI detector.
+# Use case: high-throughput streaming of exported MRI slices (e.g. from a PACS router writing PNG/JPEG
+# frames or a scanner console video feed) for ROI QC at the edge (Jetson / dGPU).
+# Build the engine first:  trtexec --onnx=models/yolo/roi/weights/best.onnx --saveEngine=best.fp16.engine --fp16
+# YOLO output parsing uses the community DeepStream-Yolo custom parser library (libnvdsinfer_custom_impl_Yolo.so).
+[property]
+gpu-id=0
+net-scale-factor=0.0039215697906911373
+model-color-format=0
+onnx-file=../../models/yolo/roi/weights/best.onnx
+model-engine-file=../../models/yolo/roi/weights/best.fp16.engine
+labelfile-path=labels.txt
+batch-size=16
+network-mode=2
+num-detected-classes=2
+interval=0
+gie-unique-id=1
+process-mode=1
+network-type=0
+cluster-mode=2
+maintain-aspect-ratio=1
+symmetric-padding=1
+parse-bbox-func-name=NvDsInferParseYolo
+custom-lib-path=/opt/nvidia/deepstream/deepstream/lib/libnvdsinfer_custom_impl_Yolo.so
+engine-create-func-name=NvDsInferYoloCudaEngineGet
+
+[class-attrs-all]
+nms-iou-threshold=0.45
+pre-cluster-threshold=0.25
+topk=10

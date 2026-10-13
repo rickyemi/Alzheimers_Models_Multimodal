@@ -1,0 +1,12 @@
+{
+  "c_echo_status": "0x0",
+  "c_store_statuses": [
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0",
+    "0x0"
+  ],
+  "instances_received_by_scp": 5,
+  "round_trip_s": 0.289
+}

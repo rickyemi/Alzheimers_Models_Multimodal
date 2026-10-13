@@ -1,0 +1,16 @@
+{
+  "files": 125,
+  "tags_removed_per_file": 2,
+  "uids_remapped_per_file": 3,
+  "example_header": {
+    "Modality": "MR",
+    "Manufacturer": "GE MEDICAL SYSTEMS",
+    "MagneticFieldStrength": "3.0",
+    "SeriesDescription": "AX T1 MPRAGE",
+    "Rows": "128",
+    "Columns": "128",
+    "PixelSpacing": "[1.8, 1.8]",
+    "BitsStored": "12",
+    "PhotometricInterpretation": "MONOCHROME2"
+  }
+}

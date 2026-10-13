@@ -1,0 +1,37 @@
+# deepstream-app -c deployment/deepstream/deepstream_app_config.txt
+[application]
+enable-perf-measurement=1
+perf-measurement-interval-sec=5
+
+[source0]
+enable=1
+# type 3 = multi-URI; multifilesrc reads an image sequence exported from the PACS router
+type=3
+uri=file:///data/stream/slice_%05d.jpg
+num-sources=1
+
+[streammux]
+gpu-id=0
+batch-size=16
+width=96
+height=96
+batched-push-timeout=40000
+
+[primary-gie]
+enable=1
+gpu-id=0
+batch-size=16
+config-file=config_infer_primary_yolo_roi.txt
+
+[sink0]
+enable=1
+# type 1 = fakesink (metadata only); ROI boxes are published via the msgbroker sink to Kafka for QC dashboards
+type=1
+sync=0
+
+[sink1]
+enable=0
+type=6
+msg-conv-config=msgconv_config.txt
+msg-broker-proto-lib=/opt/nvidia/deepstream/deepstream/lib/libnvds_kafka_proto.so
+msg-broker-conn-str=kafka;9092;ad-mm-roi

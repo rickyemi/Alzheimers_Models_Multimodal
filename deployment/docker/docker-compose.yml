@@ -1,0 +1,30 @@
+# Local integration stack: PACS (Orthanc) + AI inference API + Prometheus
+#   docker compose -f deployment/docker/docker-compose.yml up --build
+# Orthanc UI: http://localhost:8042  (DIMSE AET ORTHANC on 4242, DICOMweb at /dicom-web)
+# API docs:   http://localhost:8080/docs
+services:
+  orthanc:
+    image: orthancteam/orthanc:24.9.1
+    ports: ["4242:4242", "8042:8042"]
+    environment:
+      ORTHANC__NAME: AD_MM_PACS
+      ORTHANC__DICOM_AET: ORTHANC
+      ORTHANC__AUTHENTICATION_ENABLED: "false"     # enable + TLS in any non-local environment
+      ORTHANC__DICOM_WEB__ENABLE: "true"
+      ORTHANC__DICOM_MODALITIES: '{"AD_MM_AI": ["AD_MM_AI", "ad-mm-router", 11112]}'
+    volumes: [orthanc-db:/var/lib/orthanc/db]
+
+  ad-mm-api:
+    build: {context: ../.., dockerfile: deployment/docker/Dockerfile}
+    image: ad-mm-api:1.0.0
+    ports: ["8080:8080"]
+    environment: {AD_MM_MODEL_PATH: /app/models/ad_mm_fusion.onnx}
+    depends_on: [orthanc]
+
+  prometheus:
+    image: prom/prometheus:v2.53.0
+    ports: ["9090:9090"]
+    volumes: [./prometheus.yml:/etc/prometheus/prometheus.yml:ro]
+
+volumes:
+  orthanc-db:

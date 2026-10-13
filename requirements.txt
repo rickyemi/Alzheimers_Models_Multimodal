@@ -1,0 +1,40 @@
+# core
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+pyyaml>=6.0
+matplotlib>=3.8
+seaborn>=0.13
+# imaging + DICOM workflow
+pydicom>=3.0
+pynetdicom>=2.1
+nibabel>=5.2
+tifffile>=2024.1
+pillow>=10.0
+opencv-python-headless>=4.9
+scikit-image>=0.22
+# deep learning + Hugging Face
+torch>=2.3
+transformers>=4.44
+tokenizers>=0.19
+# detection / data-centric tooling
+ultralytics>=8.3          # YOLO ROI detector
+fiftyone>=0.25            # dataset curation (optional, heavy)
+roboflow>=1.1             # annotation/versioning (optional)
+darwin-py>=1.0            # V7 annotation (optional)
+# deployment
+onnx>=1.16
+onnxscript>=0.1
+onnxruntime>=1.18
+fastapi>=0.110
+uvicorn[standard]>=0.29
+python-multipart>=0.0.9
+httpx>=0.27
+# coremltools>=8.0        # macOS: Core ML export
+# tensorrt>=10.0          # NVIDIA GPU host: TensorRT engines
+# notebooks / tests
+jupyter>=1.0
+nbformat>=5.9
+nbclient>=0.10
+pytest>=8.0

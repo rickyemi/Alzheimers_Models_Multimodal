@@ -1,0 +1,101 @@
+# Kubernetes manifests for the AD inference service.
+#   kubectl apply -f deployment/k8s/
+---
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: ad-mm
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: ad-mm-config
+  namespace: ad-mm
+data:
+  AD_MM_MODEL_PATH: /app/models/ad_mm_fusion.onnx
+  REFER_THRESHOLD: "0.60"
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ad-mm-api
+  namespace: ad-mm
+  labels: {app: ad-mm-api, model-version: "1.0.0"}
+spec:
+  replicas: 2
+  strategy: {type: RollingUpdate, rollingUpdate: {maxUnavailable: 0, maxSurge: 1}}
+  selector: {matchLabels: {app: ad-mm-api}}
+  template:
+    metadata:
+      labels: {app: ad-mm-api, model-version: "1.0.0"}
+      annotations: {prometheus.io/scrape: "true", prometheus.io/port: "8080", prometheus.io/path: /metrics}
+    spec:
+      securityContext: {runAsNonRoot: true, runAsUser: 10001, fsGroup: 10001}
+      containers:
+        - name: api
+          image: registry.example.com/ad-mm-api:1.0.0     # pin by digest in production
+          imagePullPolicy: IfNotPresent
+          ports: [{containerPort: 8080, name: http}]
+          envFrom: [{configMapRef: {name: ad-mm-config}}]
+          resources:
+            requests: {cpu: "500m", memory: 1Gi}
+            limits: {cpu: "2", memory: 2Gi}
+          readinessProbe: {httpGet: {path: /health, port: http}, initialDelaySeconds: 10, periodSeconds: 10}
+          livenessProbe: {httpGet: {path: /health, port: http}, initialDelaySeconds: 30, periodSeconds: 20}
+          securityContext: {allowPrivilegeEscalation: false, readOnlyRootFilesystem: false, capabilities: {drop: [ALL]}}
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: ad-mm-api
+  namespace: ad-mm
+spec:
+  selector: {app: ad-mm-api}
+  ports: [{name: http, port: 80, targetPort: 8080}]
+---
+apiVersion: autoscaling/v2
+kind: HorizontalPodAutoscaler
+metadata:
+  name: ad-mm-api
+  namespace: ad-mm
+spec:
+  scaleTargetRef: {apiVersion: apps/v1, kind: Deployment, name: ad-mm-api}
+  minReplicas: 2
+  maxReplicas: 10
+  metrics:
+    - type: Resource
+      resource: {name: cpu, target: {type: Utilization, averageUtilization: 65}}
+---
+apiVersion: policy/v1
+kind: PodDisruptionBudget
+metadata:
+  name: ad-mm-api
+  namespace: ad-mm
+spec:
+  minAvailable: 1
+  selector: {matchLabels: {app: ad-mm-api}}
+---
+apiVersion: networking.k8s.io/v1
+kind: NetworkPolicy
+metadata:
+  name: ad-mm-api-ingress-only
+  namespace: ad-mm
+spec:
+  podSelector: {matchLabels: {app: ad-mm-api}}
+  policyTypes: [Ingress]
+  ingress:
+    - from: [{namespaceSelector: {matchLabels: {name: clinical-gateway}}}]
+      ports: [{port: 8080}]
+---
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ad-mm-api
+  namespace: ad-mm
+  annotations: {nginx.ingress.kubernetes.io/proxy-body-size: 50m}
+spec:
+  tls: [{hosts: [ad-mm.internal.example.com], secretName: ad-mm-tls}]
+  rules:
+    - host: ad-mm.internal.example.com
+      http:
+        paths: [{path: /, pathType: Prefix, backend: {service: {name: ad-mm-api, port: {number: 80}}}}]

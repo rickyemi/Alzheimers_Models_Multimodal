@@ -1,0 +1,501 @@
+file,format,shape,site,scanner,injected_defect
+tiff/pt_0001.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+tiff/pt_0002.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0003.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+nifti/sub-0004_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0005.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0006.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0007.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+dicom/PT-0008.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+dicom/PT-0009.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+nifti/sub-0010_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+nifti/sub-0011_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+tiff/pt_0012.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+tiff/pt_0013.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0014.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+jpg/PATIENT0015.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0016.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+nifti/sub-0017_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0018.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+dicom/PT-0019.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0020.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+dicom/PT-0021.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+jpg/PATIENT0022.jpg,jpg,"(192, 192)",SITE-E,SIEMENS,none
+jpg/PATIENT0023.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,high_noise
+dicom/PT-0024.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+jpg/PATIENT0025.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0026.tiff,tiff,"(160, 160)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0027_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0028_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+dicom/PT-0029.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,flip_lr
+dicom/PT-0030.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0031_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+nifti/sub-0032_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+jpg/PATIENT0033.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0034.tiff,tiff,"(160, 160)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0035.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+jpg/PATIENT0036.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0037.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+jpg/PATIENT0038.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+tiff/pt_0039.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+nifti/sub-0040_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+dicom/PT-0041.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+tiff/pt_0042.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0043.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0044_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+jpg/PATIENT0045.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0046_T1w.nii,nii,"(64, 64, 24)",SITE-C,SIEMENS,none
+jpg/PATIENT0047.jpg,jpg,"(192, 192)",SITE-A,SIEMENS,none
+nifti/sub-0048_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+dicom/PT-0049.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0050.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0051.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+nifti/sub-0052_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+tiff/pt_0053.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0054.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+dicom/PT-0055.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0056.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0057_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+tiff/pt_0058.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+jpg/PATIENT0059.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0060_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0061.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,none
+jpg/PATIENT0062.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+nifti/sub-0063_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+dicom/PT-0064.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+jpg/PATIENT0065.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+tiff/pt_0066.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+tiff/pt_0067.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0068.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0069.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0070.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+dicom/PT-0071.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0072.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+jpg/PATIENT0073.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+tiff/pt_0074.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+dicom/PT-0075.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+jpg/PATIENT0076.jpg,jpg,"(192, 192)",SITE-B,Philips,flip_ud
+jpg/PATIENT0077.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0078_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+nifti/sub-0079_T1w.nii,nii,"(64, 64, 24)",SITE-B,SIEMENS,none
+nifti/sub-0080_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+jpg/PATIENT0081.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0082_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+dicom/PT-0083.dcm,dcm,"(128, 128)",SITE-E,SIEMENS,none
+dicom/PT-0084.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0085.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0086.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0087.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+nifti/sub-0088_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+dicom/PT-0089.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,none
+nifti/sub-0090_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0091.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0092.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+nifti/sub-0093_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+dicom/PT-0094.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+nifti/sub-0095_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+dicom/PT-0096.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0097.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0098_T1w.nii,nii,"(64, 64, 24)",SITE-B,SIEMENS,none
+jpg/PATIENT0099.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0100_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+nifti/sub-0101_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+tiff/pt_0102.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+jpg/PATIENT0103.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0104.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+nifti/sub-0105_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0106.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0107.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,low_contrast
+dicom/PT-0108.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0109.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+dicom/PT-0110.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+nifti/sub-0111_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0112_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+tiff/pt_0113.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+nifti/sub-0114_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+dicom/PT-0115.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+nifti/sub-0116_T1w.nii,nii,"(64, 64, 24)",SITE-E,GE MEDICAL SYSTEMS,none
+dicom/PT-0117.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+dicom/PT-0118.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0119.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0120.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0121.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+dicom/PT-0122.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+tiff/pt_0123.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+dicom/PT-0124.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+nifti/sub-0125_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+tiff/pt_0126.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,none
+tiff/pt_0127.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+jpg/PATIENT0128.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0129.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0130.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0131.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0132.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0133.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0134.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,flip_ud
+dicom/PT-0135.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0136.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+nifti/sub-0137_T1w.nii,nii,"(64, 64, 24)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0138.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0139.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+nifti/sub-0140_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+jpg/PATIENT0141.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0142.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+nifti/sub-0143_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+jpg/PATIENT0144.jpg,jpg,"(192, 192)",SITE-E,SIEMENS,none
+nifti/sub-0145_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0146.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+jpg/PATIENT0147.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0148_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0149.tiff,tiff,"(160, 160)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0150.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+dicom/PT-0151.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+tiff/pt_0152.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+tiff/pt_0153.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+tiff/pt_0154.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0155.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+jpg/PATIENT0156.jpg,jpg,"(192, 192)",SITE-B,Philips,low_contrast
+dicom/PT-0157.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0158_T1w.nii,nii,"(64, 64, 24)",SITE-C,SIEMENS,none
+nifti/sub-0159_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0160_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+dicom/PT-0161.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+dicom/PT-0162.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+nifti/sub-0163_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+dicom/PT-0164.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0165.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+nifti/sub-0166_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+tiff/pt_0167.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+tiff/pt_0168.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+tiff/pt_0169.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+nifti/sub-0170_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0171.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+jpg/PATIENT0172.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+jpg/PATIENT0173.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0174.dcm,dcm,"(128, 128)",SITE-A,Philips,flip_lr
+jpg/PATIENT0175.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+nifti/sub-0176_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+dicom/PT-0177.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+tiff/pt_0178.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0179.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0180.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+nifti/sub-0181_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+nifti/sub-0182_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+jpg/PATIENT0183.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+dicom/PT-0184.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0185.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+nifti/sub-0186_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+jpg/PATIENT0187.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+jpg/PATIENT0188.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+jpg/PATIENT0189.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+nifti/sub-0190_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0191.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0192_T1w.nii,nii,"(64, 64, 24)",SITE-C,SIEMENS,none
+jpg/PATIENT0193.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0194.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0195.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+jpg/PATIENT0196.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+tiff/pt_0197.tiff,tiff,"(160, 160)",SITE-B,Philips,none
+tiff/pt_0198.tiff,tiff,"(160, 160)",SITE-B,Philips,none
+tiff/pt_0199.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0200.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0201.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0202.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+jpg/PATIENT0203.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+dicom/PT-0204.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+nifti/sub-0205_T1w.nii,nii,"(64, 64, 24)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0206.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0207_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0208.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+nifti/sub-0209_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+nifti/sub-0210_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0211.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+jpg/PATIENT0212.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0213_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0214.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0215.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+jpg/PATIENT0216.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0217_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0218_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+jpg/PATIENT0219.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+jpg/PATIENT0220.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+dicom/PT-0221.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+dicom/PT-0222.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+tiff/pt_0223.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+tiff/pt_0224.tiff,tiff,"(160, 160)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0225.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+tiff/pt_0226.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,low_contrast
+jpg/PATIENT0227.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+jpg/PATIENT0228.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+nifti/sub-0229_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+jpg/PATIENT0230.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+nifti/sub-0231_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0232.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0233.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0234.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+jpg/PATIENT0235.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+jpg/PATIENT0236.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+jpg/PATIENT0237.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+tiff/pt_0238.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+dicom/PT-0239.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+jpg/PATIENT0240.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+dicom/PT-0241.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+nifti/sub-0242_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+tiff/pt_0243.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+dicom/PT-0244.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,none
+jpg/PATIENT0245.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+jpg/PATIENT0246.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+jpg/PATIENT0247.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+jpg/PATIENT0248.jpg,jpg,"(192, 192)",SITE-C,Philips,none
+tiff/pt_0249.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+dicom/PT-0250.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+tiff/pt_0251.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+nifti/sub-0252_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+dicom/PT-0253.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+jpg/PATIENT0254.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0255.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0256.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+dicom/PT-0257.dcm,dcm,"(128, 128)",SITE-E,SIEMENS,none
+dicom/PT-0258.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0259.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,none
+dicom/PT-0260.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0261.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+tiff/pt_0262.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0263.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+jpg/PATIENT0264.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+jpg/PATIENT0265.jpg,jpg,"(192, 192)",SITE-C,Philips,none
+tiff/pt_0266.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+tiff/pt_0267.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0268_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+dicom/PT-0269.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+dicom/PT-0270.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0271_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0272_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+tiff/pt_0273.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0274.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+dicom/PT-0275.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+tiff/pt_0276.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+tiff/pt_0277.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+tiff/pt_0278.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+jpg/PATIENT0279.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0280_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+jpg/PATIENT0281.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+nifti/sub-0282_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+nifti/sub-0283_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+tiff/pt_0284.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+tiff/pt_0285.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+tiff/pt_0286.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0287.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+nifti/sub-0288_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0289_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0290_T1w.nii,nii,"(64, 64, 24)",SITE-C,SIEMENS,none
+tiff/pt_0291.tiff,tiff,"(160, 160)",SITE-C,Philips,none
+dicom/PT-0292.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+nifti/sub-0293_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+dicom/PT-0294.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+jpg/PATIENT0295.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0296.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+jpg/PATIENT0297.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0298.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0299_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0300.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+dicom/PT-0301.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+dicom/PT-0302.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0303_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+jpg/PATIENT0304.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0305.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0306.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0307_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+jpg/PATIENT0308.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+dicom/PT-0309.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0310.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0311.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0312.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0313.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+nifti/sub-0314_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+tiff/pt_0315.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,none
+jpg/PATIENT0316.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+dicom/PT-0317.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+dicom/PT-0318.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0319.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0320.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+nifti/sub-0321_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+dicom/PT-0322.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+nifti/sub-0323_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0324_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0325_T1w.nii,nii,"(64, 64, 24)",SITE-B,SIEMENS,none
+tiff/pt_0326.tiff,tiff,"(160, 160)",SITE-B,Philips,none
+dicom/PT-0327.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+tiff/pt_0328.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0329.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+nifti/sub-0330_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+jpg/PATIENT0331.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0332.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0333_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+tiff/pt_0334.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0335.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+tiff/pt_0336.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+dicom/PT-0337.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,flip_lr
+dicom/PT-0338.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0339_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+jpg/PATIENT0340.jpg,jpg,"(192, 192)",SITE-A,SIEMENS,none
+dicom/PT-0341.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+nifti/sub-0342_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0343.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+jpg/PATIENT0344.jpg,jpg,"(192, 192)",SITE-E,SIEMENS,none
+jpg/PATIENT0345.jpg,jpg,"(192, 192)",SITE-A,SIEMENS,none
+jpg/PATIENT0346.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+jpg/PATIENT0347.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+nifti/sub-0348_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+nifti/sub-0349_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+tiff/pt_0350.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+dicom/PT-0351.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0352.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0353.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0354.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+dicom/PT-0355.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+nifti/sub-0356_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0357_T1w.nii,nii,"(64, 64, 24)",SITE-C,SIEMENS,none
+tiff/pt_0358.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0359.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+jpg/PATIENT0360.jpg,jpg,"(192, 192)",SITE-C,Philips,none
+tiff/pt_0361.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,none
+dicom/PT-0362.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+jpg/PATIENT0363.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+nifti/sub-0364_T1w.nii,nii,"(64, 64, 24)",SITE-E,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0365.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+nifti/sub-0366_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+nifti/sub-0367_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+jpg/PATIENT0368.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0369.jpg,jpg,"(192, 192)",SITE-C,Philips,none
+nifti/sub-0370_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+tiff/pt_0371.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0372.dcm,dcm,"(128, 128)",SITE-C,SIEMENS,none
+jpg/PATIENT0373.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0374.jpg,jpg,"(192, 192)",SITE-D,SIEMENS,none
+tiff/pt_0375.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,none
+nifti/sub-0376_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+nifti/sub-0377_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+tiff/pt_0378.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+jpg/PATIENT0379.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0380.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0381_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+tiff/pt_0382.tiff,tiff,"(160, 160)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0383_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0384.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0385_T1w.nii,nii,"(64, 64, 24)",SITE-B,SIEMENS,none
+jpg/PATIENT0386.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,low_contrast
+dicom/PT-0387.dcm,dcm,"(128, 128)",SITE-C,Philips,none
+nifti/sub-0388_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+nifti/sub-0389_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+nifti/sub-0390_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+jpg/PATIENT0391.jpg,jpg,"(192, 192)",SITE-E,Philips,none
+dicom/PT-0392.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+dicom/PT-0393.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+dicom/PT-0394.dcm,dcm,"(128, 128)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0395.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+tiff/pt_0396.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+dicom/PT-0397.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0398.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+dicom/PT-0399.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+jpg/PATIENT0400.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0401.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0402.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0403_T1w.nii,nii,"(64, 64, 24)",SITE-D,SIEMENS,none
+nifti/sub-0404_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+nifti/sub-0405_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0406.jpg,jpg,"(192, 192)",SITE-C,Philips,none
+jpg/PATIENT0407.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0408.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,none
+nifti/sub-0409_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+jpg/PATIENT0410.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0411.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+dicom/PT-0412.dcm,dcm,"(128, 128)",SITE-A,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0413.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+dicom/PT-0414.dcm,dcm,"(128, 128)",SITE-B,Philips,low_contrast
+dicom/PT-0415.dcm,dcm,"(128, 128)",SITE-D,Philips,none
+tiff/pt_0416.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+jpg/PATIENT0417.jpg,jpg,"(192, 192)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0418_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0419.jpg,jpg,"(192, 192)",SITE-B,Philips,none
+jpg/PATIENT0420.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+jpg/PATIENT0421.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0422.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+tiff/pt_0423.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+jpg/PATIENT0424.jpg,jpg,"(192, 192)",SITE-A,Philips,none
+nifti/sub-0425_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0426_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+tiff/pt_0427.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+tiff/pt_0428.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0429_T1w.nii,nii,"(64, 64, 24)",SITE-E,Philips,none
+tiff/pt_0430.tiff,tiff,"(160, 160)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0431_T1w.nii,nii,"(64, 64, 24)",SITE-D,GE MEDICAL SYSTEMS,none
+nifti/sub-0432_T1w.nii,nii,"(64, 64, 24)",SITE-B,Philips,none
+tiff/pt_0433.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+tiff/pt_0434.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,none
+nifti/sub-0435_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+jpg/PATIENT0436.jpg,jpg,"(192, 192)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0437.jpg,jpg,"(192, 192)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0438_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0439.jpg,jpg,"(192, 192)",SITE-E,SIEMENS,none
+jpg/PATIENT0440.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0441.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+jpg/PATIENT0442.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+dicom/PT-0443.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+tiff/pt_0444.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0445.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+dicom/PT-0446.dcm,dcm,"(128, 128)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0447.tiff,tiff,"(160, 160)",SITE-D,Philips,none
+nifti/sub-0448_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+dicom/PT-0449.dcm,dcm,"(128, 128)",SITE-B,SIEMENS,none
+dicom/PT-0450.dcm,dcm,"(128, 128)",SITE-E,Philips,none
+tiff/pt_0451.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+dicom/PT-0452.dcm,dcm,"(128, 128)",SITE-A,Philips,low_contrast
+jpg/PATIENT0453.jpg,jpg,"(192, 192)",SITE-E,SIEMENS,none
+dicom/PT-0454.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,none
+jpg/PATIENT0455.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+dicom/PT-0456.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,none
+jpg/PATIENT0457.jpg,jpg,"(192, 192)",SITE-C,GE MEDICAL SYSTEMS,none
+dicom/PT-0458.dcm,dcm,"(128, 128)",SITE-D,GE MEDICAL SYSTEMS,flip_ud
+nifti/sub-0459_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+jpg/PATIENT0460.jpg,jpg,"(192, 192)",SITE-E,GE MEDICAL SYSTEMS,none
+nifti/sub-0461_T1w.nii,nii,"(64, 64, 24)",SITE-E,SIEMENS,none
+nifti/sub-0462_T1w.nii,nii,"(64, 64, 24)",SITE-C,Philips,none
+jpg/PATIENT0463.jpg,jpg,"(192, 192)",SITE-D,Philips,none
+tiff/pt_0464.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+jpg/PATIENT0465.jpg,jpg,"(192, 192)",SITE-A,SIEMENS,none
+dicom/PT-0466.dcm,dcm,"(128, 128)",SITE-D,SIEMENS,none
+nifti/sub-0467_T1w.nii,nii,"(64, 64, 24)",SITE-C,GE MEDICAL SYSTEMS,none
+nifti/sub-0468_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+nifti/sub-0469_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+nifti/sub-0470_T1w.nii,nii,"(64, 64, 24)",SITE-B,SIEMENS,none
+tiff/pt_0471.tiff,tiff,"(160, 160)",SITE-D,SIEMENS,high_noise
+nifti/sub-0472_T1w.nii,nii,"(64, 64, 24)",SITE-A,Philips,none
+nifti/sub-0473_T1w.nii,nii,"(64, 64, 24)",SITE-D,Philips,none
+nifti/sub-0474_T1w.nii,nii,"(64, 64, 24)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0475.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,flip_ud
+tiff/pt_0476.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0477.tiff,tiff,"(160, 160)",SITE-A,SIEMENS,none
+dicom/PT-0478.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+tiff/pt_0479.tiff,tiff,"(160, 160)",SITE-A,GE MEDICAL SYSTEMS,none
+tiff/pt_0480.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+dicom/PT-0481.dcm,dcm,"(128, 128)",SITE-C,GE MEDICAL SYSTEMS,none
+tiff/pt_0482.tiff,tiff,"(160, 160)",SITE-B,GE MEDICAL SYSTEMS,none
+tiff/pt_0483.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+nifti/sub-0484_T1w.nii,nii,"(64, 64, 24)",SITE-A,SIEMENS,none
+tiff/pt_0485.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+tiff/pt_0486.tiff,tiff,"(160, 160)",SITE-A,Philips,none
+tiff/pt_0487.tiff,tiff,"(160, 160)",SITE-E,GE MEDICAL SYSTEMS,none
+tiff/pt_0488.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none
+jpg/PATIENT0489.jpg,jpg,"(192, 192)",SITE-C,SIEMENS,none
+jpg/PATIENT0490.jpg,jpg,"(192, 192)",SITE-B,SIEMENS,none
+tiff/pt_0491.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+tiff/pt_0492.tiff,tiff,"(160, 160)",SITE-E,SIEMENS,none
+dicom/PT-0493.dcm,dcm,"(128, 128)",SITE-A,SIEMENS,none
+nifti/sub-0494_T1w.nii,nii,"(64, 64, 24)",SITE-A,GE MEDICAL SYSTEMS,none
+nifti/sub-0495_T1w.nii,nii,"(64, 64, 24)",SITE-B,GE MEDICAL SYSTEMS,none
+dicom/PT-0496.dcm,dcm,"(128, 128)",SITE-B,Philips,none
+tiff/pt_0497.tiff,tiff,"(160, 160)",SITE-E,Philips,none
+dicom/PT-0498.dcm,dcm,"(128, 128)",SITE-A,Philips,none
+tiff/pt_0499.tiff,tiff,"(160, 160)",SITE-C,SIEMENS,none
+tiff/pt_0500.tiff,tiff,"(160, 160)",SITE-B,SIEMENS,none

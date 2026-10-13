@@ -1,0 +1,54 @@
+# Multimodal Alzheimer's Disease (AD) 5-class diagnostic model: master configuration
+project:
+  name: multimodal-ad-diagnosis
+  seed: 42
+  author: YO
+
+classes: [CN, SMC, EMCI, LMCI, AD]   # Cognitively Normal, Subjective Memory Complaint, Early MCI, Late MCI, AD dementia
+
+data:
+  n_patients: 500
+  class_counts: {CN: 130, SMC: 80, EMCI: 110, LMCI: 100, AD: 80}
+  image_formats: [dcm, nii, tiff, jpg]
+  raw_dir: data/raw
+  interim_dir: data/interim
+  processed_dir: data/processed
+  yolo_dir: data/yolo
+
+preprocessing:
+  image_size: 96
+  intensity_clip_percentiles: [1, 99]
+  text_max_len: 96
+  tokenizer_vocab_size: 2000
+  tabular_impute: median
+  outlier_iqr_k: 3.0
+
+split:
+  test_size: 0.15
+  val_size: 0.15
+  stratify: label
+
+model:
+  embed_dim: 128
+  image_channels: [16, 32, 64, 128]
+  text_hidden: 96
+  text_layers: 2
+  text_heads: 4
+  tabular_hidden: [64, 128]
+  dropout: 0.3
+  modality_dropout: 0.25
+  aux_loss_weight: 0.3
+
+training:
+  epochs: 60
+  batch_size: 32
+  lr: 0.002
+  weight_decay: 0.0001
+  early_stopping_patience: 12
+  class_weighting: inverse_frequency
+  seeds: [42, 7, 2026]
+
+deployment:
+  onnx_opset: 17
+  onnx_path: models/ad_mm_fusion.onnx
+  api_port: 8080

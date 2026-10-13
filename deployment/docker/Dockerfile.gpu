@@ -1,0 +1,15 @@
+# GPU inference image: ONNX Runtime with CUDA + TensorRT execution providers.
+FROM nvcr.io/nvidia/tensorrt:24.08-py3
+
+ENV PYTHONPATH=/app/src AD_MM_MODEL_PATH=/app/models/ad_mm_fusion.onnx \
+    ORT_TENSORRT_FP16_ENABLE=1 ORT_TENSORRT_ENGINE_CACHE_ENABLE=1 ORT_TENSORRT_CACHE_PATH=/app/trt_cache
+WORKDIR /app
+COPY deployment/docker/requirements-serve.txt .
+RUN pip install --no-cache-dir -r requirements-serve.txt && pip uninstall -y onnxruntime && pip install --no-cache-dir onnxruntime-gpu
+COPY configs/ configs/
+COPY src/ src/
+COPY models/ad_mm_fusion.onnx models/tabular_transformer.json models/
+COPY models/tokenizer/ models/tokenizer/
+COPY data/interim/image_template.npy data/interim/
+EXPOSE 8080
+CMD ["uvicorn", "ad_mm.deployment.serve_api:app", "--host", "0.0.0.0", "--port", "8080", "--workers", "1"]

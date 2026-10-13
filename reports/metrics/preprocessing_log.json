@@ -1,0 +1,68 @@
+{
+  "imaging": {
+    "studies": 500,
+    "by_format": {
+      "tiff": 125,
+      "dcm": 125,
+      "nii": 125,
+      "jpg": 125
+    },
+    "flip_corrected": 4,
+    "denoised": 2
+  },
+  "text": {
+    "rows_raw": 514,
+    "exact_duplicates_removed": 6,
+    "empty_notes": 3,
+    "rows_clean": 508,
+    "truncated_notes": 1
+  },
+  "tabular": {
+    "rows_raw": 515,
+    "duplicates_removed": 15,
+    "unmapped_dx": 0,
+    "hippocampus_cm3_to_mm3": 103,
+    "age_decimal_fix": 3,
+    "mmse_decimal_fix": 3,
+    "implausible_set_nan": 0,
+    "missing_cells": 218,
+    "rows_clean": 500
+  },
+  "merge": {
+    "image_ids": 500,
+    "note_ids": 508,
+    "tabular_ids": 500,
+    "notes_without_image_or_tabular(orphans)": 8,
+    "all_three": 500
+  },
+  "final": {
+    "rows": 500,
+    "image_tensor": [
+      500,
+      1,
+      96,
+      96
+    ],
+    "text_tensor": [
+      500,
+      96
+    ],
+    "tabular_tensor": [
+      500,
+      22
+    ],
+    "split": {
+      "train": 350,
+      "test": 75,
+      "val": 75
+    },
+    "class_counts": {
+      "CN": 130,
+      "EMCI": 110,
+      "LMCI": 100,
+      "AD": 80,
+      "SMC": 80
+    },
+    "vocab_size": 843
+  }
+}
